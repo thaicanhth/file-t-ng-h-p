@@ -1,0 +1,163 @@
+@charset "utf-8";
+*{
+    padding: 0;
+    margin: 0;
+}
+.khung-main{
+    width: 1000px;
+    height: 450px;
+    margin: auto;
+    background-color: silver;
+}
+.khung1{
+    width: 300px;
+    height: 50px;
+    margin-left: 25px;
+    background-color: green;
+    float: left;
+}
+.khung1 h1{
+    margin: 10px 20px;
+    text-align: left;
+    color: white;
+    font-family:  Arial;
+    font-size: 20px;
+    border-right: 3px solid gray;
+    margin-left: 10px;
+    display: inline;
+   
+    
+   
+}
+
+.khung1 p{
+    margin: 10px 25px;
+    font-size: medium;
+    color: white;
+    text-align: justify;
+    line-height: 25px;  
+    margin-bottom: 20px;
+    float: right;
+}
+.xemct{
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: silver;
+    margin-top: 40px;
+    margin: auto;
+}
+.xemct a{
+    text-align: center;
+    line-height: 40px;
+    text-decoration: none;
+    display: block;
+    color: white;
+}
+.xemct a:hover{
+    text-align: center;
+    line-height: 40px;
+    text-decoration: none;
+    border-radius: 10px;
+    display: red;
+    color: white;
+    background-color: blue;
+}
+.khung2{
+    width: 300px;
+    height: 100%;
+    margin-left: 25px;
+    background-color: green;
+    float: left;
+}
+.khung2 h1{
+    margin: 10px 20px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+.khung2 hr{
+    margin: 10px 20px;
+    border: 2px solid white;
+}
+.khung2 p{
+    margin: 10px 25px;
+    font-size: medium;
+    color: white;
+    text-align: justify;
+    line-height: 25px;  
+    margin-bottom: 20px;
+}
+.xemct2{
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: silver;
+    margin-top: 40px;
+    margin: auto;
+}
+.xemct2 a{
+    text-align: center;
+    line-height: 40px;
+    text-decoration: none;
+    display: block;
+    color: white;
+}
+.xemct2 a:hover{
+    text-align: center;
+    line-height: 40px;
+    text-decoration: none;
+    border-radius: 10px;
+    display: red;
+    color: white;
+    background-color: blue;
+}
+.khung3{
+    width: 300px;
+    height: 100%;
+    margin-left: 25px;
+    background-color: green;
+    float: left;    
+}
+.khung3 h1{
+    margin: 10px 20px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+.khung3 hr{
+    margin: 10px 20px;
+    border: 2px solid white;
+}
+.khung3 p{
+    margin: 10px 25px;
+    font-size: medium;
+    color: white;
+    text-align: justify;
+    line-height: 25px;  
+    margin-bottom: 20px;
+}
+.xemct3{
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: silver;
+    margin-top: 40px;
+    margin: auto;
+}
+.xemct3 a{
+    text-align: center;
+    line-height: 40px;
+    text-decoration: none;
+    display: block;
+    color: white;
+}
+.xemct3 a:hover{
+    text-align: center;
+    line-height: 40px;
+    text-decoration: none;
+    border-radius: 10px;
+    display: red;
+    color: white;
+    background-color: blue;
+}

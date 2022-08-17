@@ -1,0 +1,31 @@
+@charset "utf-8";
+.span-icon span{
+    color: blue;
+    font-size: xx-large;
+}
+.span-copy{
+    float: right;
+    font-size: x-large;
+    color: rgb(50, 50, 241);
+}
+.facebook{
+    color: rgb(50, 50, 241);
+    font-size: xx-large;
+}
+.twitter{
+    color: rgb(19, 212, 247);
+    font-size: xx-large;
+}
+.google{
+    color: rgb(209, 179, 10);
+    font-size: xx-large;
+}
+a{
+    color: blue;
+}
+.hover a{
+    color: blue;
+}
+.hover a:hover{
+    background-color: tomato;
+}

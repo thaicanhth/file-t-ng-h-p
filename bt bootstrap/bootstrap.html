@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./bootstrap.css">
+    <link rel="shortcut icon" href="https://www.beeart.vn/uploads/file/images/blog/logo-tra-sua/logo-tra-sua-bee-art-12.jpg" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <title>Milk tea</title>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Licorice&display=swap');
+       :root {
+          --brown: #790004;
+      }
+      
+      body {
+          min-height: 100vh;
+          width: 100%;
+          background: var(--brown);
+          text-transform: capitalize;
+          color: #c08d41;
+      }
+      
+      header {
+          position: relative;
+          width: 100%;
+          top: 50px;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+      }
+      
+      .logo {
+          font-size: 70px;
+          font-family: Brush Script MT;
+          color: #b99765;
+          text-shadow: 0 0 50px rgb(243, 195, 106);
+      }
+      
+      .logo::before {
+          position: absolute;
+          content: 'temple bar dublin';
+          top: 70%;
+          font-size: 18px;
+          left: 12%;
+          font-family: serif;
+      }
+      
+      .nav-link {
+          color: var(--brown);
+      }
+      
+      .img-responsive {
+          border: 5px solid #b99765;
+          border-radius: 4px;
+          background-size: cover;
+      }
+      
+      button:first-child~button:nth-child(2),
+      button:nth-child(3),
+      button:nth-child(4) {
+          position: relative;
+          margin-top: -17px;
+      }
+  </style>
+</head>
+
+  <body class="">
+    <div class="container">
+        <header>
+           
+            <h1 class="logo">Shack restaurant
+            </h1>
+            <div class="search d-flex" style="position: absolute; right: 65px;">
+                <input style="box-shadow: 5px 5px 5px #272014 ;" class="form-control me-2 " type="text">
+               
+                <button style="box-shadow: 5px 5px 5px #272014 ;" class="btn btn-warning ">Search</button>
+            </div>
+            <p class="address text-center" style=" position: relative;
+            top: 80px;
+            width: 400px;
+            color: #dad3c9;text-shadow:0 0 50px rgb(243, 195, 106) ;">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam dignissimos quam nisi saepe.</p>
+        </header>
+        <nav class="nav bg-warning" style=" margin-top: 110px;
+        border-radius: 5px;
+        justify-content: space-between;">
+            <a class="nav-link" href="">Home</a>
+            <a class="nav-link" href="">Reservation</a>
+            <a class="nav-link" href="">Contact&Location</a>
+            <a class="nav-link" href="">Awards&Reviews</a>
+            <a class="nav-link" href="">Cheft Page</a>
+            <a class="nav-link" href="">Guestbook</a>
+            <a class="nav-link" href="">Gallary</a>
+            <a class="nav-link" href="">Meschandise</a>
+            <a class="nav-link col-sm-2" href="">Nexts</a>
+        </nav>
+        <div id="carouselExampleIndicators" class="carousel slide container" data-bs-ride="carousel">
+          <!-- <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div> -->
+        <div class="content">
+            <img class="img-responsive mt-3" src="https://hungthinhland.co/wp-content/uploads/2016/10/img20160628122136539-640x330.jpg" alt="" style="width:100%" height="290px" object-fit="cover">
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="thumbnail text-center">
+                    <img class="img-responsive mt-4" src="https://pdp.edu.vn/wp-content/uploads/2021/06/hinh-anh-tra-sua-dep-ngon-nhat.jpg" alt="Lights" style="width:100%" height="250px" object-fit="cover">
+                    <p class=" text-uppercase text-center mt-3">award winning cuisne</p>
+                    <div class="caption border-top border-bottom border-warning pb-3">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non laudantium ex repellendus fugiat nisi dolore harum quae, veniam hic reiciendis facere neque nostrum alias ipsa deleniti consequatur quam maiores quos.</p>
+                    </div>
+                    <button type="button" class="btn btn-danger">the select</button>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="thumbnail text-center">
+                    <img class="img-responsive mt-4" src="https://thuthuatnhanh.com/wp-content/uploads/2020/12/hinh-anh-tra-sua-dep-va-ngon.jpg" alt="Lights" style="width:100%" height="250px" object-fit="cover">
+                    <p class=" text-uppercase text-center mt-3">make a reservation</p>
+                    <div class="caption border-top border-bottom border-warning pb-3">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non laudantium ex repellendus fugiat nisi dolore harum quae, veniam hic reiciendis facere neque nostrum alias ipsa deleniti consequatur quam maiores quos.</p>
+                    </div>
+                    <button type="button" class="btn btn-danger ">Menu Shack</button>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="thumbnail text-center">
+                    <img class="img-responsive mt-4" src="https://1.bp.blogspot.com/-BSuIhlplFB0/XuOAHhHoZUI/AAAAAAAABQk/KNs5ennX8Aw_1sOJbPpnonRziXOjKO2cQCPcBGAsYHg/s1600/image.png" alt="Lights" style="width:100%" height="250px" object-fit="cover">
+                    <p class=" text-uppercase text-center mt-3">great special offer</p>
+                    <div class="caption border-top border-bottom border-warning pb-3">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non laudantium ex repellendus fugiat nisi dolore harum quae, veniam hic reiciendis facere neque nostrum alias ipsa deleniti consequatur quam maiores quos.</p>
+                    </div>
+                    <button type="button" class="btn btn-danger">Special oll</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="page-footer mt-3">
+        <div class="container " style="background: rgb(48, 3, 3); border-radius: 5px;">
+            <div class="row">
+                <div class="col-md-3 mx-auto">
+
+                    <p class=" text-uppercase  mt-3">This text is important</p>
+                    <div class="caption border-top  border-warning pb-3">
+                        <p>Lorem ipsum donec id elit non mi porta gravida at eget metus.Lorem ipsum donec id elit non mi porta gravida.Lorem ipsum donec id elit non mi porta gravida at eget metus.Lorem ipsum donec id elit non mi porta gravida non mi porta
+                            gravida.
+                        </p>
+                    </div>
+
+
+                </div>
+                <div class="col-md-3 mx-auto">
+
+                    <p class=" text-uppercase    mt-3">This text is important</p>
+                    <div class="caption border-top  border-warning pb-3">
+                        <p>Enter your email address</p>
+                        <div class="email d-flex ">
+                            <input class="form-control me-2 " type="text">
+                            <!-- <button class="btn btn-danger">search</button> -->
+                            <button class="btn btn-warning col-sm-3">Join</button>
+                        </div>
+                    </div>
+
+
+                </div>
+                <div class="col-md-3 mx-auto">
+
+                    <p class=" text-uppercase  mt-3">Join Us</p>
+                    <div class="caption border-top  border-warning pb-3">
+                        <p>Freelance Opportunities<br>Jobs @ The Shack</p>
+                    </div>
+
+
+                </div>
+            </div>
+            <div class="footer-copyright p-3" style="background: linear-gradient(rgb(37, 16, 16),#790004); border-radius: 5px;">
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque quaerat velit illum ut illo doloribus hic aliquid aperiam amet soluta sed omnis similique nobis consequatur.</p>
+                <p href="" class="text-center" style="opacity: 0.5;">All content &copy; The Shack restaurant 2021</p>
+            </div>
+        </div>
+    </footer>
+
+    </div>
+  <script src="./js/bootstrap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>

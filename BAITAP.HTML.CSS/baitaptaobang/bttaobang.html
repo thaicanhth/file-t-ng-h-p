@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        td{
+            text-align: center;
+            font-weight: bold;
+        }
+        th{
+            font-weight: normal;
+            text-align: left;
+        }
+        table, th, td{
+            border: 1px solid rgb(216, 216, 219);
+            padding: 5px;
+        }
+        .bang1{
+            background-image: url(my1.png);
+            background-size: 70px 60px;
+            background-repeat: no-repeat;
+        }
+        .bang2{
+            background-image: url(smartphone2.png);
+            background-size: 70px 60px;
+            background-repeat: no-repeat;
+        }
+    </style>
+</head>
+<body>
+    <div class="bang">
+        <table width="600px" border="1px" style="margin: auto; white-space: nowrap;border-spacing: 5px;border: 4px solid rgb(130, 130, 133);">
+            <tr>
+                <td colspan="6">Purchased Equipments (June, 2006)</td>
+            </tr>
+            <tr>
+                <td rowspan="2">Item Num#</td>
+                <td rowspan="2">Item Picture</td>
+                <td>Item Description</td>
+                <td>Price</td>
+            </tr>
+            <tr>
+                <td>Shipping Handling, Installation, ect</td>
+                <td>Expense</td>
+            </tr>
+            <tr>
+                <th rowspan="2">1.</th>
+                <th class="bang1" rowspan="2"></th>
+                <th>IBM Clone Computer.</th>
+                <th> $ 400.00</th>
+            </tr>
+            <tr>
+                <th>Shipping Handling, Installation, ect</th>
+                <th>$ 20.00</th>
+            </tr>
+            <tr>
+                <th rowspan="2">2.</th>
+                <th class="bang2" rowspan="2"></th>
+                <th>1GB RAM Module for Computer.</th>
+                <th> $ 50.00</th>
+            </tr>
+            <tr>
+                <th>Shipping Handling, Installation, ect</th>
+                <th>$ 14.00</th>
+            </tr>
+            <tr>
+                <td colspan="6">Purchased Equipments (June, 2006)</td>
+            </tr>
+        </table>
+    </div>
+    
+</body>
+</html>

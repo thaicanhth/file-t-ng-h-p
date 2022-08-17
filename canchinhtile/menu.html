@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./icons1.png" type="image/x-icon">
+    <title>Trang Web</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: "ROboto", sans-serif;
+        }
+        .main{
+            width: 700px;
+            /* height: 575px; */
+            background-color: rgb(235, 233, 233);
+            margin: 0 auto;
+        }
+        .container ul{
+            list-style: none;
+        }
+        .container a{
+            text-decoration: none;
+            color: white;
+        }
+        .container ul li {
+            background-color: rgb(110, 199, 202);
+            width: 175px;
+            border: 1px solid rgba(30, 184, 255, 0.733);
+            height: 50px;
+            line-height: 50px;
+            text-align: center;
+            float: left;
+            font-size: 16px;
+            position: relative;
+        }
+        .container ul li:hover{
+            background-color: rgb(90, 218, 205);
+            opacity: 85%;
+        }
+        .container ul ul{
+            display: none;
+        }
+        .container ul li:hover >ul{
+            display: block;
+        }
+        .container ul ul ul{
+            margin-left: 175px;
+            top: 0px;
+            position: absolute;
+        }
+
+        .khung{
+            width: 700px;
+            height: 320px;
+            background-color: black;
+            position: relative;
+            margin: auto;
+        }
+        img{
+            width: 700px;
+            height: 320px;
+        }
+        .khung ul{
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: block;
+        }
+        .khung ul li a{
+            text-decoration: none;
+            width: 50px;
+            height: 50px;
+            display: block;
+            text-indent: -9999;
+           
+        }
+        .khung ul li.next a{
+            background-image: url(./icon9.png);
+            background-size: 50px 50px;
+            background-repeat: no-repeat;
+            background-image: right;
+            margin-right: 10px;
+            opacity: 50%;
+        
+        }
+        .khung ul li.pre a{
+            background-image: url(./icon8.png);
+            background-size: 50px 50px;
+            background-repeat: no-repeat;
+            background-image: left;
+            margin-left: 10px;
+            opacity: 50%;
+        }
+        .khung ul li.next{
+            position: absolute;
+            top: 150px;
+            right: 0;
+        }
+        .khung ul li.pre{
+            position: absolute;
+            top: 150px;
+            left: 0;
+        }
+        .khung-main{
+            width: 700px;
+            height: 140px;
+            background-color: rgb(110, 199, 202);
+            margin: auto;
+            opacity: 85%;
+        }
+        .khung1{
+            margin: 5px 15px;
+            width: 200px;
+            height: 100px;
+            float: left;
+        }
+        .khung1 h1{
+            /* margin: 5px 15px; */
+            color: red;
+            font-size: 16px;
+        }
+        .khung1 p{
+            /* margin: 5px 15px; */
+            font-size: 15px;
+            text-align: justify;
+            line-height: 25px;  
+        }
+        .khung2{
+            margin: 5px 15px;
+            width: 200px;
+            height: 100px;
+            float: left;
+        }
+        .khung2 h1{
+            /* margin: 5px 15px; */
+            color: red;
+            font-size: 16px;
+        }
+        .khung2 p{
+            /* margin: 5px 15px; */
+            font-size: 15px;
+            text-align: justify;
+            line-height: 25px;  
+        }
+        .khung3{
+            margin: 5px 15px;
+            width: 200px;
+            height: 100px;
+            float: left;
+        }
+        .khung3 h1{
+            /* margin: 5px 15px; */
+            color: red;
+            font-size: 16px;
+        }
+        .khung3 p{
+            /* margin: 5px 15px; */
+            font-size: 15px;
+            text-align: justify;
+            line-height: 25px;  
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+    <div class="container">
+        <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">About</a>
+            <ul>
+                <li><a href="">Hello</a></li>
+                <li><a href="">Sarech</a>
+                <ul>
+                    <li><a href="">Samsung</a></li>
+                    <li><a href="">Nokia</a></li>
+                    <li><a href="">Vivo</a></li>
+                </ul>
+                </li>
+                <li><a href="">Cart</a></li>
+            </ul>
+            </li>
+            <li><a href="">Entertainment</a></li>
+            <li><a href="">Contact</a></li>
+        </ul>
+    </div>
+    <div style="clear: both;"></div>
+    <div class="khung">
+        <img src="web01.jpg" alt="">
+        <ul>
+            <li class="next"><a href=""></a></li>
+            <li class="pre"><a href=""></a></li>
+        </ul>       
+    </div>
+</div>
+<div style="clear: both;"></div>
+<div class="khung-main">
+    <div class="khung1">
+        <h1>Lorem 3</h1>
+        <br>
+        <p>Lorem ipsum dolor sit amet  adipisicing elit
+             Molestias odio similique placeat,
+              itaque  </p>
+    </div>
+    <div class="khung2">
+        <h1>Lorem 3</h1>
+        <br>
+        <p>Lorem ipsum dolor sit amet  adipisicing elit
+             Molestias odio similique placeat,
+              itaque  </p>
+    </div>
+    <div class="khung3">
+        <h1>Lorem 3</h1>
+        <br>
+        <p>Lorem ipsum dolor sit amet  adipisicing elit
+             Molestias odio  similique placeat,
+              itaque  </p>
+    </div>
+</div> 
+</body>
+</html>

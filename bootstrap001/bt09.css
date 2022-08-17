@@ -1,0 +1,45 @@
+@charset "utf-8";
+.bg-darkblue{
+    background-color: darkblue;
+}
+.bg-gray{
+    background-color: gray;
+}
+a{
+    color: white;
+}
+li:hover{
+    background-color: white;
+}
+.slide-bar{
+    width: 100%;
+    /* margin: 0 -35px; */
+}
+.vung3{
+    text-align: center;    
+}
+.vung3 img{
+    height: 150px; width: 150px;
+    border-radius: 50%;
+}
+.vung4 img{
+    height: 200px; width: 200px;    
+}
+.vung{
+    padding: 10px 20px;
+}
+.vung h3{
+    color: tomato;
+}
+.vung4 h3{
+    color: tomato;
+}
+.vung4 h5{
+    color: tomato;
+}
+.vung4 p{
+    color: white;
+}
+.vung2 h3{
+    color: royalblue;
+}

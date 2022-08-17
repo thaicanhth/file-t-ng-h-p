@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="btform.html">
+    <style>
+        .input{
+            width: 400px;
+            margin: auto;
+            border-radius: 10px;
+        }
+        .input legend{
+            text-align: center;
+            background-color: brown;
+            border-radius: 8px;
+            color: white;
+            font-size: 16px;
+            padding: 5px 30px;
+            font-weight: bold;
+        }
+        .input input{
+            width: 300px;
+            height: 30px;
+            margin: 7px 0px;
+            border-radius: 10px;
+            padding: 0px 0px 0px 40px;  
+        }
+        .ten{
+          background-image: url(./icons3.png);
+          background-size: 40px 30px;
+          background-repeat: no-repeat;
+        }
+        .email{
+          background-image: url(./icons2.png);
+          background-size: 40px 30px;
+          background-repeat: no-repeat;
+        }
+        .adress{
+          background-image: url(./icons1.png);
+          background-size: 40px 30px;
+          background-repeat: no-repeat;
+        }
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <h1>Thực hành ví dụ về form</h1>
+    <form action="baitap006.html" method="">
+        <p>UserName: <input type="text" name= "UserNam" placeholder="Tên đăng nhập" autofocus required></p>
+        <p>PassWord: <input type="text" name= "passWord" placeholder="Mặt khẩu đăng nhập"></p>
+        <p>Chọn ngày: <input type="date"></p>
+        <p>Chọn màu: <input type="color"></p>
+        <p>Tìm kiếm: <input type="search"></p>
+        <input type="Submit" name="btnDangNhap" value="Đăng Nhập">
+        <hr>
+        <fieldset style="width: 400px;">
+            <legend>Giới Tính</legend>
+           <input type="radio" name="gt" value="Nam" checked="true">Nam 
+           <input type="radio" name="gt" value="Nữ">Nữ
+        </fieldset>
+        <hr>
+        <fieldset style="width: 400px;">
+            <legend>Ngoại Ngữ</legend>
+            <input type="checkbox" name="ta" value="Tiếng Anh" checked="true"><label>Tiếng Anh</label>
+            <input type="checkbox" name="tt" value="Tiếng Trung"><label>Tiếng Trung</label>
+            <input type="checkbox" name="tn" value="Tiếng Nga"><label>Tiếng Nga</label>
+            <input type="checkbox" name="tiengnhat" value="Tiếng Nhật"><label>Tiếng Nhật</label>            
+        </fieldset>
+        <hr>
+        <fieldset class="input">
+            <legend>Input form fieldest and legend</legend>
+            <input class="ten" type="text" placeholder="Nhập họ tên"><br>
+            <input class="email" type="text" placeholder="Nhập email"><br>
+            <input class="adress" type="text" placeholder="Nhập địa chỉ"><br>
+        </fieldset>
+        <hr>
+       <audio src="Nang-Xuan-Lou-Hoang.mp3" type="audio/mp3" controls>
+
+       </audio>
+       <hr>
+       <video src="YeuEmLamCho-TuanCry-7120147.mp4" type="video/mp4" controls>
+
+       </video>
+    </form>
+</body>
+</html>

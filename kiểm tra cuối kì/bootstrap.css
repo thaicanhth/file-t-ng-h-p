@@ -1,0 +1,31 @@
+@charset "utf-8";
+.bg-info{
+    background-color: rgb(0, 238, 255);
+}
+a{
+    color: white;
+}
+li:hover{
+background-color: rgb(71, 255, 154);
+}
+.vung3{
+  border: 1px solid rgb(158, 157, 157);
+}
+.vung3 img{
+    height: 80px; width: 80px;
+    border-radius: 50%;
+}
+h3{
+    float: right;
+    font-size: 20px;
+    margin-right: 40px;
+}
+h2{
+    font-size: 20px;
+}
+.vung{
+    padding: 10px 20px ;
+}
+.vung09{
+    padding: 0px 0px 10px 20px;
+}

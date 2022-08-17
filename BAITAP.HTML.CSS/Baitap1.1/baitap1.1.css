@@ -1,0 +1,37 @@
+@charset "utf-8";
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif Arial;
+}
+.main{
+    width: 1000px;
+    height: 620px;
+    margin: auto;
+}
+.dong1{
+    width: 100%;
+    height: 620px;
+    background-color: silver;
+}
+.box-1{
+    width: 1000px;
+    height: 100px;
+    float: left;
+    background-color: yellow;
+}
+.box-2{
+    width: 200px;
+    height: 517px;
+    float: left;
+    margin-top: 3px;
+    background-color: rebeccapurple;
+}
+.box-3{
+    width: 790px;
+    height: 517px;
+    float: left;
+    margin-top: 3px;
+    margin-left: 10px;
+    background-color: paleturquoise;
+}
