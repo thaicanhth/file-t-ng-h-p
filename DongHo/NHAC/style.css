@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(to right,gray,black);
+}
+.Music-player{
+    width: 400px;
+    height: 490px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-0%);
+    margin-top: 70px;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to right,#1261a0,#29c5f6);
+    border-radius: 15px;
+}
+.Music-player .image img{
+    width: 400px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    margin-bottom: 15px;
+}
+audio{
+    width: 100%;
+    outline: none;
+}

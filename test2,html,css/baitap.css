@@ -1,0 +1,134 @@
+@charset "utf-8";
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif Arial;
+}
+.main{
+    width: 1000px;
+    height: 620px;
+    margin: auto;
+}
+.header{
+    width: 995.5px;
+    height: 40px;
+    background-color: paleturquoise; 
+    border: 2px solid blue;
+}
+.h1{
+    color: black;
+   text-align: center;
+   padding: 8px;
+   font-size: 20px;
+}
+.path{
+    width: 995.5px;
+    height: 70px;
+    background-color: hotpink;
+    border: 2px solid rgb(240, 8, 124);
+}
+.h2{
+    color: black;
+   text-align: center;
+   padding: 17px;
+   font-size: 20px;
+}
+.docktop{
+    width: 995.5px;
+    height: 40px;
+    background-color: lemonchiffon; 
+    border: 2px solid rgb(1, 226, 1) ; 
+}
+.h3{
+    color: black;
+   text-align: center;
+   padding: 8px;
+   font-size: 20px;
+}
+.mid-cn{
+    width: 100%;
+    height: 360px;
+}   
+.dockleft{
+    width: 200px;
+    height: 100%;
+    background-color: orange;
+    border: 2px solid rgb(5, 117, 245);
+    float: left;
+} 
+.h5{
+    color: black;
+   text-align: center;
+   padding: 50px;
+   font-size: 20px;
+}
+.erro{
+    width: 300px;
+    height: 100%;
+    float: right;
+}
+.error-1{
+    width: 588px;
+    height: 70px;
+    background-color: paleturquoise;
+    border: 2px solid rgb(7, 240, 240);
+    float: left;
+}
+.h6{
+    color: black;
+   text-align: center;
+   padding: 15px;
+   font-size: 20px;
+}
+.error-2{
+    width: 588px;
+    height: 286px;
+    background-color: mistyrose;
+    border: 2px solid rgb(211, 83, 69);
+    float: left;
+}
+.h7{
+    color: black;
+   text-align: center;
+   padding: 125px;
+   font-size: 20px;
+}
+.error-3{
+    width: 200px;
+    height: 360px;
+    background-color: bisque;
+    border: 2px solid rgb(245, 137, 5);
+    float: right;
+}
+.h4{
+    color: black;
+   text-align: center;
+   padding: 50px;
+   font-size: 20px;
+}
+.dockbottom{
+    width: 995.5px;
+    height: 43px;
+    background-color: paleturquoise; 
+    border: 2px solid blue;
+    float: left;
+}
+.h8{
+    color: black;
+   text-align: center;
+   padding: 8px;
+   font-size: 20px;
+}
+.footer{
+    width: 995.5px;
+    height: 43px;
+    background-color: rgb(218, 147, 122); 
+    border: 2px solid rgb(255, 94, 0);
+    float: left;
+}
+.h9{
+    color: black;
+   text-align: center;
+   padding: 8px;
+   font-size: 20px;
+}

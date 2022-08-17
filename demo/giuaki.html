@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Calculator</title>
+    <style>
+        .container{
+            width: 250px;
+            height: 200px;
+            background-color: bisque;
+            margin-right: 30px;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+            border-bottom-left-radius: 10px;
+            border-bottom-right-radius: 10px;        
+        }
+        #btn:hover{
+            background: bisque;
+            border: 1px solid lightgray ;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+            border-bottom-left-radius: 10px;
+            border-bottom-right-radius: 10px;   
+        }
+        #height:hover{
+            background: bisque;
+            border: 1px solid lightgray ;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+            border-bottom-left-radius: 10px;
+            border-bottom-right-radius: 10px;   
+        }
+        #weight:hover{
+            background: bisque;
+            border: 1px solid lightgray ;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+            border-bottom-left-radius: 10px;
+            border-bottom-right-radius: 10px;   
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>BMI Calculator</h1>
+        <p contenteditable="">Height (in cm)</p>
+
+        <input type="number" id="height" placeholder="Your height">
+
+        <p>Weight (in kg)</p>
+
+        <input type="number" id="weight" placeholder="Your weight"> 
+
+        <button type="submit" id="btn">Calculate</button>
+        <div id="result"></div>
+    </div>
+    <script src="bmi.js"></script>
+</body>
+</html>
