@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <title>Bootstrap</title>
+</head>
+<body>
+    <div class="col-md-12 bg-success container">
+        <h1>Chào mừng các bạn đến với Bootstrap</h1>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Home</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  <a class="nav-link" href="#">Features</a>
+                  <a class="nav-link" href="#">Pricing</a>
+                  <a class="nav-link disabled">Disabled</a>
+                </div>
+              </div>
+            </div>
+          </nav>
+          <br>
+          <div id="carouselExampleIndicators" class="carousel slide container" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./img/hinhcss.png" class="d-block w-100 img-thumbnail" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="./img/merychrist.jpg" class="d-block w-100 img-thumbnail" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="./img/merychrist1.jpg" class="d-block w-100 img-thumbnail" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        <div class="col-sm-2 bg-primary">
+            <ul>
+                <li>item 1</li>
+                <li>item 1</li>
+                <li>item 1</li>
+                <li>item 1</li>
+                <li>item 1</li>
+            </ul>
+        </div>
+        <div class="alert alert-primary" role="alert">
+            A simple primary alert—check it out!
+          </div>
+          <div class="alert alert-secondary" role="alert">
+            A simple secondary alert—check it out!
+          </div>
+          <div>
+              <span class="badge bg-primary">Tin mới</span>
+              <span class="badge badge-primary">Hàng mới</span>
+              <span class="badge badge-secondary">Thời tiết</span>
+          </div>
+          <br>
+        <div>
+            <button class="btn btn-primary">Primary</button>
+            <button class="btn btn-secondary">Secondary</button>
+            <button class="btn btn-warning">Warning</button>
+            <button class="btn btn-danger">Danger</button>
+        </div>
+        <br>
+        <div class="btn-group">
+            <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown">Hành động</button>
+            <div class="dropdown-menu" aria-labelledby="dropdown1">
+                <a class="dropdown-item" href="#">Chi tiết</a>
+                <a class="dropdown-item" href="#">Sửa</a>
+                <a class="dropdown-item" href="#">Xóa</a>
+            </div>
+        </div>
+        <br>
+        <div class="btn-group">
+            <button class="btn btn-primary"><span class="fas fa-home">&nbsp;&nbsp;</span>Primary</button>
+            <button class="btn btn-primary"><span class="fas fa-address-card">&nbsp;&nbsp;</span>Secondary</button>
+            <button class="btn btn-primary">Warning</button>
+            <button class="btn btn-primary">Danger</button>
+        </div>
+        <br>
+        <!-- <div>
+            <img src="./img/merychrist.jpg" alt="" class="img rounded-circle">
+            <img src="./img/merychrist1.jpg" alt="" class="img-thumbnail">
+            <img src="./img/hinhcss.png" alt="" class="img-fluid mx-auto float-right">
+        </div> -->
+        <br>
+        <div class="card">
+            <div class="card-header"><h1>Header</h1></div>
+            <div class="card-body"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius voluptate assumenda, iste repellendus velit voluptates maxime officiis eum, qui vitae esse eaque hic magnam modi doloremque laborum sunt. Reiciendis, odit.</p></div>
+            <div class="card-footer"><p>Phần chân trang</p></div>
+        </div>
+        <br>
+    </div>
+    <script src="./bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>
